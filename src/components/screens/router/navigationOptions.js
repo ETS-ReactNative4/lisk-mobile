@@ -95,11 +95,7 @@ navigationOptions.Register = {
 };
 
 navigationOptions.TxDetail = {
-  title: null,
-  headerLeft: (props) => <HeaderBackButton {...props} title="Transaction details" />,
-  headerRight: () => <HeaderPlaceholderButton />,
-  headerStyle: noShadow,
-  headerTitleStyle: noTitle
+  header: () => null
 };
 
 navigationOptions.CurrencySelection = {
